@@ -1,0 +1,13 @@
+#main_content ol{
+	display: block;
+	background-color: #F0F0F0;
+	width: 100%;
+	padding: 0px;
+}
+#main_content  ol li{
+	display: inline;
+}
+.p_row{
+	padding: 10px;
+	background-color: #DBDBDB;
+}

@@ -1,0 +1,31 @@
+#main_nav{
+	display: block;
+}
+#main_nav ul{
+	background-color: #C7C7C7;
+	overflow: hidden;
+	margin-bottom: 3px;
+}
+.a{
+	vertical-align: sub;
+}
+.main_nav_element{
+	display: inline;
+	vertical-align: super;
+	height: 40px;
+	text-align: center;
+	min-width: 90px;
+	background-color: #C7C7C7;
+	float: left;
+	margin-right: 2px;
+	padding: 0px 15px;
+	color: red;
+	padding-top: 10px;
+}
+#main_nav ul li a:hover{
+	background-color: #F0F0F0;
+}
+#nav_last{
+	float: right;
+	margin-right: 0px;
+}

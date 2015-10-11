@@ -1,0 +1,51 @@
+#form{
+	display: block;
+	width: 60%;
+	padding: 10px;
+	float: left;
+}
+#form input{	
+	margin: 10px auto;
+	width: 80%;
+	height: 30px;
+	font-size: 80%;
+	padding-left: 10px;
+}
+.form_line_wrapper{
+	display: inline;
+}
+.form_tooltip{
+	display: inline-block;
+	background-color: #33ADFF;
+	margin-left: 10px;
+	width: 20px;
+	border-radius: 100px;
+	text-align: center;
+}
+.form_tooltip_popup{
+	display: none;
+	position: absolute;
+	background-color: #F0F0F0;
+	width: 250px;
+	min-height: 70px;
+	border-radius: 5px;
+	padding: 5px;
+	font-size: 17px;
+}
+.popup_parent:hover .form_tooltip_popup{
+	display: inline;
+}
+.tooltip_hidden{
+	display: none;
+}
+.tooltip_error{
+	background-color: #FF0000
+}
+#form_submit{
+	width: 100px;
+	height: 50px;
+	border: 2px solid #D1CFCF;
+	background-color: #F0F0F0;
+	font-size: 18px;
+	margin-top: 10px
+}

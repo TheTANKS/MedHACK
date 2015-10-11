@@ -1,0 +1,2 @@
+# MedHACK
+Software for hospitals.
